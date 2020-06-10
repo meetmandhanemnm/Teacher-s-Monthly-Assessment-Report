@@ -1,0 +1,401 @@
+/*@font-face {
+  font-family: myfont;
+  src: url(fonts/regular.tff);
+}*/
+
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('fonts/poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('fonts/poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('fonts/poppins/Poppins-Medium.ttf');
+}
+
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('fonts/montserrat/Montserrat-Medium.ttf');
+  }
+
+*{
+    padding : 0px;
+    margin : 0px;
+    font-family : 'Montserrat-Regular','Poppins-Regular',sans-serif;
+    letter-spacing: 0.7px;
+}
+
+form{
+	display:inline;
+}
+
+ul li.active a{
+	background-color: white;
+	color: #000;
+	
+}
+
+.wrappernavbar{
+    height : 100px;
+    background-color: rgb(255,255,255);
+    border-bottom: 1px solid rgb(0,0,0);
+}
+
+.logo{
+    height : 50px;
+    width : 50px;
+    margin : 30px;
+}
+
+.logotitle{
+
+    display : inline-block;
+    position : relative ;
+    bottom : 50px;
+    font-weight : 600;
+
+}
+.navbar{
+    float : right;
+    margin : 15px 50px;
+}
+
+.navbar button{
+
+    width : 160px;
+    height : 65px;
+    font-size : 16px;
+    color : rgb(0,0,0);
+    text-transform : uppercase;
+    background-color: rgb(255,255,255);
+    border : none;
+    font-weight: 600;
+}
+
+
+.navbar button:hover{
+    color : rgb(255,255,255);
+    background-image : linear-gradient(to bottom right,#1e64ff,#505aff);
+    box-shadow: 3px 3px 5px rgb(180,180,180);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+.wrapper-subheading{
+
+    height : 200px;
+    line-height : 200px;
+    width : 100%;
+    background-image : linear-gradient(to bottom right,#1e64ff,#505aff);
+}
+
+
+.wrapper-subheading h2{
+    color : white;
+    font-size : 35px;
+    text-align : center;
+}
+
+
+
+
+
+
+
+.wrapper-container{
+
+        border : 2px solid black;
+        border-radius : 4px;
+        width: 80%;
+        margin : 100px auto;
+        background-color: rgb(246, 246, 246);
+
+
+       /* height : 150vh;*/
+
+}
+
+.container button{
+    height : 80px;
+    width : 33%;
+    text-transform : uppercase;
+    line-height : 80px;
+    background-color : transparent;
+    border : none; 
+    font-size : 20px;
+    font-weight : 600;
+    letter-spacing: 2px;
+    /* color : black; */
+
+}
+.container button:hover{
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.container button:active,
+.container button:focus,
+.container button:visited
+{
+    outline : 0;
+}
+
+
+.content{
+    padding : 100px;
+}
+
+.w3-red{
+    background-image : linear-gradient(to bottom right,#1e64ff,#505aff);
+    border-radius : 4px;
+    color : white;
+}
+
+.spanh3{
+    display : inline;
+}
+
+h1{
+    margin : 30px 0px;
+}
+
+table{
+    border : 2px solid rgb(134, 134, 134);
+    /* padding : 40px; */
+    margin : 0px auto;
+    width : 100%;
+    font-size : 16px;
+    font-weight : 600;
+}
+
+td{
+  padding : 12px 150px;  
+}
+
+
+h1{
+    text-transform : uppercase;
+    letter-spacing : 2px;
+    margin-bottom : 60px;
+    background-image : linear-gradient(to bottom right,#1e64ff,#505aff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.bluelink{
+    display : block;
+   height : 50px;
+   line-height : 50px;
+   width : 40%;
+
+    text-align : center;
+    text-decoration: none;
+
+    padding : 20px;
+
+    background-image : linear-gradient(to bottom right,#1e64ff,#505aff);
+    color : white;
+
+    font-size : 20px;
+    font-weight : 600;
+
+    border : none;
+    border-radius : 4px;
+
+    margin : 20px auto;
+    box-shadow : 5px 5px 5px gray;
+}
+
+.bluelink:hover{
+    transform: translate(0px , 3px);
+    box-shadow : 7px 7px 7px gray;
+}
+
+tr:nth-child(even)
+{
+    background-color: #e7e7e7;
+} 
+
+.modal {
+    
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.6); 
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius : 10px;
+  }
+  
+  .mcsubheading-wrapper{
+      text-align : center;
+      font-size : 36px;
+      text-transform : uppercase;
+      color : #000;
+      font-weight : 600;
+      margin : 60px;
+      background-image : linear-gradient(to bottom right,#1e64ff,#505aff);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+  }
+  
+  .mcflexcontainer{
+      display : flex;
+      justify-content: space-around;
+      margin-bottom : 50px;
+  }
+  
+  .mcflexcontent p{
+      font-size : 22px;
+      font-weight : 400;
+      text-align : center;
+  }
+  
+  .mcflexcontent input{
+    height : 55px;
+    width : 300px;
+    padding : 10px 30px 10px 30px;
+    font-size : 20px;
+    font-weight : 400;
+    border-style : solid;
+    border : none;
+    border-width : 0.1px;
+    box-shadow : 0px 5px 5px rgba(180,180,180,0.5);
+  }
+  
+  .mcflexcontent input:hover{
+      font-weight : 600;
+      box-shadow: 5px 5px 5px rgb(180,180,180);
+  }
+  .mcflexcontent input:focus{
+      font-weight : 600;
+      box-shadow: 5px 5px 5px rgb(180,180,180);
+  }
+  
+  .mcbuttonwrapper{
+      text-align: center;
+  }
+  
+  .mcbuttonwrapper button{
+      background-image : linear-gradient(to bottom right,#1e64ff,#505aff);
+      line-height : 60px;
+      height : 60px;
+      text-align : center;
+      width : 300px;
+      font-size : 20px;
+      font-weight : 600;
+      color : white;
+      border : none;
+      border-radius : 5px;
+      margin-bottom : 50px;
+      text-transform : uppercase;
+      box-shadow : 3px 3px 4px #888;
+  }
+  
+  .mcbuttonwrapper button:hover{
+      cursor : pointer;
+      box-shadow : 5px 5px 7px #888;
+      transform : translateY(1px);
+  }
+
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .wrapper-download-button{
+      margin-top : 80px;
+      margin-bottom : 80px;
+      text-align : center;
+  }
+  .downloadbutton{
+    background-image : linear-gradient(to bottom right,#1e64ff,#505aff);
+      line-height : 60px;
+      height : 60px;
+      text-align : center;
+      width : 300px;
+      font-size : 20px;
+      font-weight : 600;
+      color : white;
+      border : none;
+      border-radius : 5px;
+      margin-bottom : 50px;
+      text-transform : uppercase;
+      box-shadow : 3px 3px 4px #888;   
+  }
+
+  .downloadbutton:hover{
+    cursor : pointer;
+    box-shadow : 5px 5px 7px #888;
+    transform : translateY(1px);
+}
+
+
+
+.collapsible {
+ color : black;
+  padding: 18px 100px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  margin : 10px 0px;
+  transition: 0.5s;
+}
+.collapsible:active ,
+.collapsible:focus{
+    outline : 0;
+}
+
+.collapsible:hover {
+     background-image : linear-gradient(to bottom right,#1e64ff,#505aff);
+  color: white;
+    cursor: pointer;
+    border-radius : 10px;
+
+}
+
+.content-activity {
+  display : none;
+  overflow : hidden;
+}
+
+h2:active,
+h2:focus,
+h2:visited{
+    outline : 0;
+    border : none;
+}
