@@ -1,0 +1,252 @@
+@font-face {
+  font-family: myfont;
+  src: url(fonts/regular.tff);
+}
+
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('fonts/poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('fonts/poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('fonts/poppins/Poppins-Medium.ttf');
+}
+
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('fonts/montserrat/Montserrat-Medium.ttf');
+  }
+
+*{
+    padding : 0px;
+    margin : 0px;
+    font-family : 'Montserrat-Regular','Poppins-Regular',sans-serif;
+    letter-spacing: 0.7px;
+}
+
+form{
+    display: inline;
+}
+ul li.active a{
+	background-color: white;
+	color: #000;
+	
+}
+
+.wrappernavbar{
+    height : 100px;
+    background-color: rgb(255,255,255);
+    border-bottom: 1px solid rgb(0,0,0);
+}
+
+.logo{
+    height : 50px;
+    width : 50px;
+    margin : 30px;
+}
+
+.logotitle{
+
+    display : inline-block;
+    position : relative ;
+    bottom : 50px;
+    font-weight : 600;
+
+}
+.navbar{
+    float : right;
+    margin : 15px 50px;
+}
+
+.navbar button{
+
+    width : 160px;
+    height : 65px;
+    font-size : 16px;
+    color : rgb(0,0,0);
+    text-transform : uppercase;
+    background-color: rgb(255,255,255);
+    border : none;
+    font-weight: 600;
+}
+
+
+.navbar button:hover{
+    color : rgb(255,255,255);
+    background-image : linear-gradient(to bottom right,#1e64ff,#505aff);
+    box-shadow: 3px 3px 5px rgb(180,180,180);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.left-box button{
+    box-shadow : none;
+    border : none;
+    position : fixed;
+    margin-left: 20vw;
+    height : 60px;
+    width : 60px;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.outer-box{
+    display : flex;
+    flex-direction: row;
+    background-color : rgb(255,255,250);
+
+}
+
+
+
+
+
+.right-box{
+    box-sizing: border-box;
+    width : 100vw;
+     height : 100vh;
+     overflow-y: auto;
+     background-color : #f4f7f6;
+
+}
+
+.wrapper-subheading{
+    box-sizing: border-box;
+    padding-top : 100px;
+    height: 250px;
+   background-image : linear-gradient(to bottom right,#1e64ff,#505aff);
+    align-items: center;
+    box-shadow: 0px 10px 10px rgb(200,200,200);
+}
+
+.right-sub-heading{
+    font-size : 26px;
+    padding : 0px 50px 0px 50px;
+    text-align: center;
+    color : rgb(255,255,255);
+    text-transform : uppercase;
+    letter-spacing: 1.1px;
+}
+
+
+.wrapperformclass{
+    display : flex;
+    justify-content: space-evenly;
+}
+
+.formclass{
+    padding : 50px 50px 50px 50px;
+}
+
+
+.left-formclass >  h4 ,.right-formclass>h4{
+    margin-top : 50px;
+    margin-bottom : 15px;
+    font-size  : 20px;
+    font-weight : 600;
+
+    letter-spacing: 1.1px;
+    padding-left: 25px;
+}
+
+.formclass  input{
+
+    height : 60px;
+    width : 500px;
+    padding : 10px 30px 10px 30px;
+    font-size : 20px;
+    font-weight : 400;
+
+    border-style : solid;
+    border : none;
+    border-width : 0.1px;
+
+    box-shadow : 0px 5px 5px rgba(180,180,180,0.5);
+}
+
+.formclass  select{
+
+    height : 60px;
+    width : 500px;
+    padding : 10px 30px 10px 30px;
+    font-size : 20px;
+    font-weight : 400;
+
+    border-style : solid;
+    border : none;
+    border-width : 0.1px;
+    background-color : #fff;
+    box-shadow : 0px 5px 5px rgba(180,180,180,0.5);
+}
+
+
+input:hover{
+    font-weight : 800;
+    box-shadow: 5px 5px 5px rgb(180,180,180);
+}
+input:focus{
+    font-weight : 800;
+    box-shadow: 5px 5px 5px rgb(180,180,180);
+}
+
+.outer-formclass{
+    margin-bottom : 200px;
+}
+
+.wrapper-submitbutton{
+    display : flex;
+     width : 60vw;
+     margin : 100px auto; 
+     align-content: space-evenly; 
+     justify-content: space-evenly; 
+}
+
+input[type = "reset"]
+{
+     margin-top : 50px; 
+     margin-right : 50px;
+    width : 350px !important;
+    font-size : 25px;
+    font-weight : 600;
+    text-transform : uppercase;
+    color : rgb(255,255,255);
+    background-image : linear-gradient(to bottom right,#1e64ff,#505aff);
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgb(180,180,180);
+    letter-spacing: 2px;
+    transition: ease 0.1s;
+}
+
+input[type = "submit"]
+{
+     margin-top : 50px; 
+
+    width : 350px !important;
+
+    font-size : 25px;
+    font-weight : 600;
+    text-transform : uppercase;
+    color : rgb(255,255,255);
+    background-image : linear-gradient(to bottom right,#1e64ff,#505aff);
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgb(180,180,180);
+    letter-spacing: 2px;
+    transition: ease 0.1s;
+}
+
+
+
+input[type = "submit"]:hover,input[type = "reset"]:hover{
+
+    box-shadow: 7px 10px 10px rgb(120,120,120);
+    cursor: pointer;
+    transform: scale(95%,95%);
+}
