@@ -1,0 +1,120 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+
+<div class= "wrapper">
+<div class = "wrappernavbar">
+
+         <img class = "logo" src="img/pictit.png" alt="">
+        <span class ="logotitle"><p>Pict Information Technology Department</p></span>
+
+    <div class = "navbar">
+        <form action="/Lockdown/index.html">
+        <button type="submit" name="button">Home</button>
+        </form>
+        <form action="/Lockdown/index.html">
+        <button type="submit" name="button">Log in</button>
+        </form>
+        <button type="button" name="button">contact us</button>
+    </div>
+</div>
+
+    <div class= "outer-box">
+        <div class = "right-box">
+        <div class = "wrapper-subheading">
+            <h3 class = "right-sub-heading">Teacher Registration</h3>
+        </div>
+            <div class="outer-formclass">
+                <form class = "formclass" action="t_register.jsp" autocomplete = "off">
+                <div class = "wrapperformclass">
+                    <div class="left-formclass">
+
+                            <h4>Full Name</h4>
+                            <input type = "text" name="name" placeholder = "Full Name" value = "" required>
+
+                            <h4>Date of Birth</h4>
+                            <input type = "date" name="DOB" placeholder = "Date Of Birth">
+
+                            <h4>Designation</h4>
+                            <!--<input type = "text" name="desig" placeholder = "Designation">-->
+                            <select name = "desig">       
+                                <option>Assistant Professor</option>
+                                <option>Associate professor</option>
+                                <option>Lecturer</option>
+                                <option>Lab Assistant</option>
+                                <option>System Adminstrator</option>
+                            </select>
+
+                            <h4>Department</h4>
+                            <!--<input type = "text" name="dept" placeholder = "Department" value = "">-->
+                            <select name = "dept">
+                                <option>Information Technology</option>
+                                <option>Computer Science</option>
+                                <option>Electronics and Communication Technology</option>
+                            </select>
+
+                            <h4>Date Of Joining</h4>
+                            <input type = "date" name="DOJ" placeholder = "Date Of Joining" value = "">
+
+                            <h4>Category</h4>
+                            <!--<input type = "text" name="cat" placeholder = "Category(OPEN/OBC/SC/ST/NT/DT/SBC)" value = "">-->
+                            <select name = "cat">       
+                                <option>OPEN</option>
+                                <option>OBC</option>
+                                <option>SC</option>
+                                <option>ST</option>
+                                <option>NT</option>
+                                <option>DT</option>
+                                <option>SBC</option>
+                            </select>
+                            
+                            <h4>Marital Status</h4>
+                            <!--<input type = "text" name="mar" placeholder = "Married/Unmarried" value = "">-->
+                            <select name = "mar">       
+                                <option>Married</option>
+                                <option>Unmarried</option>
+                            </select>
+                            <br>
+                    </div>
+                    <div class="right-formclass">
+
+                        <h4>Mobile</h4>
+                        <input type = "text" name="mob" placeholder = "Mobile" maxlength="10" value = "">
+
+                        <h4>Email</h4>
+                        <input type = "email" name="email" placeholder = "Email" value = "" required>
+
+                        <h4>Employee Code</h4>
+                        <input type = "text" name="code" placeholder = "Employee Code" value = "">
+
+                        <h4>Correspondence address</h4>
+                        <input type = "text" name="c_add" placeholder = "Correspondence address" value = "">
+
+                        <h4>Permanent Address</h4>
+                        <input type = "text" name="p_add" placeholder = "Permanent Address" value = "">
+
+                        <h4>Qualifications</h4>
+                        <input type = "text" name="quali" placeholder = "Qualifications" value = "">
+                        
+                        <h4>Password</h4>
+                        <input type = "text" name="pass" placeholder = "Password" value = "" required>
+
+                            <br>
+                    </div>
+
+                </div>
+
+                <div class="wrapper-submitbutton">
+                       <input class = "resetclass" type = "reset" value = "Reset">
+                        <input class = "submitclass" type = "submit" value = "Submit">
+                </div>
+            </form>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
